@@ -1,5 +1,7 @@
 # Big Data Smart Home
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Open Dashboard](https://img.shields.io/badge/Live-Dashboard-blue)](https://public.tableau.com/app/profile/raul.c1685/viz/LSBUSmartHome/LSBUSmartHome)
+
 
 Academic project developed at **London South Bank University (LSBU)** showcasing how smart home data can be managed using **SQL databases** and visualised through **Tableau dashboards**.  
 The repository includes a fully normalised ERD, SQL queries, triggers and stored procedures, and a comprehensive academic report.
