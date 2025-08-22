@@ -6,10 +6,9 @@ The project demonstrates how smart home data can be managed using **relational d
 ---
 
 ## 📖 Project Overview
-For a complete description of objectives, schema design, queries, and visualisations, see:  
-👉 [Project Overview](docs/overview.md)
-
-Static entry page: 👉 [Index (HTML)](docs/index.html)
+- [Detailed Overview](docs/overview.md)  
+- [Interactive Dashboard (Tableau Public)](https://public.tableau.com/app/profile/raul.c1685/viz/LSBUSmartHome/LSBUSmartHome)  
+- [Final Report (PDF)](report/BigDataSmartHome_Public.pdf)
 
 ---
 
@@ -18,13 +17,13 @@ big-data-smart-home/
 │
 ├── data/ # SQL scripts and example datasets
 │ └── SMART_HOME_LSBU.sql
-├── tableau/ # Tableau workbooks and dashboards
+├── tableau/ # Tableau workbook
 │ └── LSBU Smart Home.twb
-├── report/ # Final academic report
+├── report/ # Academic report
 │ └── BigDataSmartHome_Public.pdf
-├── docs/ # Documentation and static site
-│ ├── index.html
+├── docs/ # Documentation
 │ ├── overview.md
+│ ├── index.html
 │ └── LSBU Smart Home.png
 ├── .gitignore
 ├── LICENSE
@@ -39,29 +38,17 @@ Edit
 
 ## ⚙️ Tools & Technologies
 - **SQL (SQL Server/MySQL)** – Schema design, triggers, stored procedures, and queries  
-- **Tableau** – Interactive dashboards and visual analytics  
-- **Python (optional)** – Data preprocessing if required  
-- **PDF Report** – Final documentation with ERD, queries, and results  
+- **Tableau** – Dashboards and visual analytics  
+- **Python (optional)** – Data preprocessing  
+- **PDF Report** – Final documentation of the project  
 
 ---
 
 ## 🚀 Key Features
-- **Entity Relationship Diagram (ERD)** with 20 normalised tables  
-- **SQL implementation** with triggers, stored procedures, and functional dependencies  
-- **Queries** covering client spend, supplier performance, staff availability, and cost reports  
-- **Tableau dashboards** answering assignment queries and providing additional insights  
-- **Final report** summarising methodology, design, and findings  
-
----
-
-## 📊 Dashboards
-The Tableau workbook includes:
-- Top and bottom clients by spend  
-- Wi-Fi product orders by supplier and status  
-- Staff availability for installations  
-- Stock distribution, invoices by month, and client revenue vs targets  
-
-👉 Open the workbook: [`tableau/LSBU Smart Home.twb`](tableau/LSBU%20Smart%20Home.twb)
+- **ERD** with 20 normalised tables  
+- **SQL implementation** (constraints, triggers, stored procedures)  
+- **Queries**: client spend, supplier performance, staff availability, cost reports  
+- **Dashboards**: energy consumption, stock, invoices, revenue vs targets  
 
 ---
 
