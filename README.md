@@ -13,26 +13,23 @@ The project demonstrates how smart home data can be managed using **relational d
 ---
 
 ## 📂 Repository Structure
+```
 big-data-smart-home/
-│
-├── data/ # SQL scripts and example datasets
-│ └── SMART_HOME_LSBU.sql
-├── tableau/ # Tableau workbook
-│ └── LSBU Smart Home.twb
-├── report/ # Academic report
-│ └── BigDataSmartHome_Public.pdf
-├── docs/ # Documentation
-│ ├── overview.md
-│ ├── index.html
-│ └── LSBU Smart Home.png
+├── data/                 # SQL scripts and example datasets
+│   └── SMART_HOME_LSBU.sql
+├── tableau/              # Tableau workbook
+│   └── LSBU Smart Home.twb
+├── report/               # Academic report
+│   └── BigDataSmartHome_Public.pdf
+├── docs/                 # Documentation
+│   ├── overview.md
+│   ├── index.html
+│   └── LSBU Smart Home.png
 ├── .gitignore
 ├── LICENSE
 ├── requirements.txt
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -45,10 +42,10 @@ Edit
 ---
 
 ## 🚀 Key Features
-- **ERD** with 20 normalised tables  
-- **SQL implementation** (constraints, triggers, stored procedures)  
-- **Queries**: client spend, supplier performance, staff availability, cost reports  
-- **Dashboards**: energy consumption, stock, invoices, revenue vs targets  
+- ERD with 20 normalised tables  
+- SQL implementation with triggers and stored procedures  
+- Queries: client spend, supplier performance, staff availability, cost reports  
+- Tableau dashboards covering energy consumption, stock, invoices, and revenue vs targets  
 
 ---
 
