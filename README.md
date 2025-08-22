@@ -14,6 +14,7 @@ The repository includes a fully normalised ERD, SQL queries, triggers and stored
 ---
 
 ## 📂 Repository Structure
+```
 big-data-smart-home/
 ├── data/ # SQL scripts and example datasets
 │ └── SMART_HOME_LSBU.sql
@@ -29,6 +30,7 @@ big-data-smart-home/
 ├── LICENSE
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## ⚙️ Tools & Technologies
