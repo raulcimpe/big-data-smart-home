@@ -1,0 +1,14 @@
+# Ignore private files
+*.docx
+*.mp4
+*.mov
+*.avi
+*.zip
+*.rar
+
+# Temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.log

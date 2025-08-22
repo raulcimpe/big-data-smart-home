@@ -1,0 +1,7 @@
+# Core tools
+tableauhyperapi
+pandas
+numpy
+
+# Development
+jupyter
