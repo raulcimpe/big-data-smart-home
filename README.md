@@ -1,7 +1,8 @@
 # Big Data Smart Home
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository contains the **Big Data and Database Systems project** developed at **London South Bank University (LSBU)**.  
-The project demonstrates how smart home data can be managed using **relational databases** and visualised through **Tableau dashboards**, supported by a full academic report.
+Academic project developed at **London South Bank University (LSBU)** showcasing how smart home data can be managed using **SQL databases** and visualised through **Tableau dashboards**.  
+The repository includes a fully normalised ERD, SQL queries, triggers and stored procedures, and a comprehensive academic report.
 
 ---
 
@@ -13,39 +14,42 @@ The project demonstrates how smart home data can be managed using **relational d
 ---
 
 ## 📂 Repository Structure
-```
 big-data-smart-home/
-├── data/                 # SQL scripts and example datasets
-│   └── SMART_HOME_LSBU.sql
-├── tableau/              # Tableau workbook
-│   └── LSBU Smart Home.twb
-├── report/               # Academic report
-│   └── BigDataSmartHome_Public.pdf
-├── docs/                 # Documentation
-│   ├── overview.md
-│   ├── index.html
-│   └── LSBU Smart Home.png
+├── data/ # SQL scripts and example datasets
+│ └── SMART_HOME_LSBU.sql
+├── tableau/ # Tableau workbook
+│ └── LSBU Smart Home.twb
+├── report/ # Final academic report
+│ └── BigDataSmartHome_Public.pdf
+├── docs/ # Documentation and GitHub Pages
+│ ├── overview.md
+│ ├── index.html
+│ └── LSBU Smart Home.png
 ├── .gitignore
 ├── LICENSE
 ├── requirements.txt
 └── README.md
-```
+
+yaml
+Copy
+Edit
 
 ---
 
 ## ⚙️ Tools & Technologies
-- **SQL (SQL Server/MySQL)** – Schema design, triggers, stored procedures, and queries  
-- **Tableau** – Dashboards and visual analytics  
-- **Python (optional)** – Data preprocessing  
-- **PDF Report** – Final documentation of the project  
+- **SQL (SQL Server/MySQL)** – Database schema, triggers, stored procedures, and queries  
+- **Tableau** – Interactive dashboards and visual analytics  
+- **Python (optional)** – Data preprocessing if required  
+- **PDF Report** – Final documentation including ERD, queries, and results  
 
 ---
 
 ## 🚀 Key Features
-- ERD with 20 normalised tables  
-- SQL implementation with triggers and stored procedures  
-- Queries: client spend, supplier performance, staff availability, cost reports  
-- Tableau dashboards covering energy consumption, stock, invoices, and revenue vs targets  
+- **Entity Relationship Diagram (ERD)** with 20 normalised tables  
+- **SQL implementation** with constraints, triggers, and stored procedures  
+- **Queries** covering client spend, supplier performance, staff availability, and cost reports  
+- **Tableau dashboards** answering assignment queries and providing extended insights  
+- **Comprehensive report** summarising methodology, design, implementation, and findings  
 
 ---
 
