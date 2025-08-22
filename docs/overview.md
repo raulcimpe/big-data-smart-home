@@ -1,130 +1,48 @@
-\# Project Overview: Big Data Smart Home
-
-
-
-\## 1. Introduction
-
-This project was developed as part of the Big Data and Database Systems module at LSBU.  
-
-It focuses on the design, implementation, and analysis of a \*\*Smart Home data environment\*\*, combining SQL databases, Tableau visualizations, and structured reporting.  
-
-
-
-The aim is to demonstrate how data from IoT and smart devices can be stored, queried, and visualized to provide insights into energy efficiency, user behavior, and system performance.
-
-
-
----
-
-
-
-\## 2. Data Sources
-
-\- \*\*SQL Database (`SMART\_HOME\_LSBU.sql`)\*\*  
-
-&nbsp; Contains multiple tables simulating smart home device data (e.g., sensors, energy usage, user profiles).  
-
-&nbsp; Implemented in MySQL, normalized for consistency, and designed with scalability in mind.
-
-
-
-\- \*\*Tableau Workbooks (`LSBU Smart Home.twb`)\*\*  
-
-&nbsp; Visualizations built on top of the database, including:  
-
-&nbsp; - Energy consumption trends  
-
-&nbsp; - Device usage frequency  
-
-&nbsp; - Smart home efficiency KPIs  
-
-
-
----
-
-
-
-\## 3. Tools and Technologies
-
-\- \*\*SQL (MySQL)\*\* – Database design, schema definition, and data queries.  
-
-\- \*\*Tableau\*\* – Data visualization and dashboard design.  
-
-\- \*\*Python (optional, exploratory)\*\* – Pandas/Numpy for preprocessing if required.  
-
-\- \*\*Microsoft Word / PDF\*\* – Final academic report documenting the process.  
-
-
-
----
-
-
-
-\## 4. Repository Structure
-
-big-data-smart-home/
-
-│
-
-├── data/ # SQL scripts, datasets
-
-├── tableau/ # Tableau workbooks and exports
-
-├── report/ # Final academic report (PDF, no sensitive data)
-
-├── docs/ # Documentation (overview, technical notes)
-
-├── .gitignore # Ignore private and temp files
-
-├── LICENSE # License file
-
-└── README.md # Main project description
-
-
-
-yaml
-
-Copy
-
-Edit
-
-
-
----
-
-
-
-\## 5. Key Insights
-
-\- A relational database schema enables efficient data storage and querying for smart home systems.  
-
-\- Tableau dashboards provide clear insights into energy and device usage.  
-
-\- The project demonstrates how \*\*Big Data principles\*\* can be applied to real-world IoT scenarios.  
-
-
-
----
-
-
-
-\## 6. Limitations and Future Work
-
-\- Dataset size is limited (simulated data).  
-
-\- Real-world applications would require integration with live IoT data streams.  
-
-\- Future improvements could include predictive modeling (e.g., energy consumption forecasting with ML).
-
-
-
----
-
-
-
-\## 7. Authors
-
-Project completed by \*\*Raul\*\* as part of academic coursework at \*\*London South Bank University (LSBU)\*\*.  
-
-
-
+# Project Overview: Big Data Smart Home
+
+## 1. Abstract
+This work focuses on the design of a database system for **LSBU Smart Home**, automating the management of clients, buildings, IoT sensors, and installations. Queries, triggers, and stored procedures ensure efficiency, prevent conflicts, and enable advanced reporting. The system supports inventory control, staff allocation, billing, and data visualisation through Tableau.
+
+## 2. Introduction
+Smart home technology requires reliable data management. This project delivers a prototype information system for LSBU Smart Home, covering:
+- Client and building management  
+- Sensor and controller design  
+- Installation and staff assignment  
+- Inventory and suppliers  
+- Billing and payments  
+
+## 3. Database Design
+- **Entity Relationship Diagram (ERD)** with 20 tables  
+- Fully normalised to **3NF/BCNF**  
+- Includes bridge tables (e.g., ClientBuilding, TeamMember)  
+- Functional dependencies verified  
+
+## 4. Implementation
+- SQL Server used to implement tables, constraints, and data insertion  
+- Stored procedures and triggers (e.g., `trg_PreventDoubleBooking`)  
+- Queries covering:
+  - Top/bottom clients by spend  
+  - Supplier Wi-Fi order status  
+  - Specialist staff availability  
+  - Automatic prevention of double booking  
+  - Costed device lists by installation period  
+
+## 5. Data Visualisation
+Dashboards created in **Tableau** include:
+- Top/bottom clients  
+- Supplier performance  
+- Staff availability  
+- Stock distribution  
+- Revenue over time  
+- Client revenue vs targets  
+
+## 6. Final Report
+The detailed methodology, SQL scripts, queries, and dashboards are available in the **academic report**:  
+👉 [`report/BigDataSmartHome_Public.pdf`](../report/BigDataSmartHome_Public.pdf)
+
+## 7. Video Demonstration
+- GitHub Pages Dashboard: https://raulcimpe.github.io/Dashboard/  
+- Microsoft Stream / Google Drive links (see report for details)
+
+## 8. References
+See final report for a complete reference list.
